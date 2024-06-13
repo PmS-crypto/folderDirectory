@@ -1,0 +1,56 @@
+/* Add some basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style the directory container */
+.directory-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Style for unordered lists */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+/* Style for list items */
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 3px solid #007bff;
+}
+
+/* Style for folder/file titles */
+.folder-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+/* Style for buttons */
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
